@@ -85,6 +85,7 @@ img {
 
 summary {
     display: list-item;
+    padding: 0.2em;
 }
 
 summary h2 {
