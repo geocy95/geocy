@@ -15,6 +15,10 @@ ul {
   list-style-type: none;
 }
 
+a:hover img {
+  transform: scale(1.15); /* 1.05 = agrandissement de 5% */
+}
+
 a:link, a:visited {
   background-color: #2A7B9B;
   border-radius: 5px;
@@ -29,6 +33,27 @@ a:hover, a:active {
   background-color: rgba(255, 255, 255, 0);
   color: #2A7B9B;
 }
+
+a[rel="license"],
+a[rel="license"]:link,
+a[rel="license"]:visited,
+a[rel="license"]:hover,
+a[rel="license"]:active {
+  background: transparent;
+  border-radius: 0;
+  color: inherit;
+  padding: 0;
+  display: inline;
+}
+
+a[rel="license"] img {
+  width: 88px;
+  height: 31px;
+  border: 0;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
 .indent {
     text-indent: 2em;
 ;
@@ -53,4 +78,15 @@ h2 {
 
 .center {
   text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-top: 5px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+    font-size: 14px;
 }
