@@ -147,6 +147,36 @@ a.link p {
   transition: transform 0.3s ease;
 }
 
+@media (max-width: 600px) {
+  .ma-bande {
+    box-sizing: border-box;
+    height: auto;
+    padding: 8px 12px;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px 12px;
+    width: 100%;
+    min-height: 0;
+  }
+
+  .logos a {
+    justify-content: center;
+    min-width: 0;
+    margin: 0;
+  }
+
+  .logos img {
+    max-width: 100%;
+  }
+
+  .logos a.link p {
+    font-size: clamp(12px, 3.5vw, 16px);
+  }
+}
+
 a[rel="license"],
 a[rel="license"]:link,
 a[rel="license"]:visited,
