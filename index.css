@@ -53,6 +53,7 @@ body {
 
 .logos {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: clamp(8px, 2vw, 24px);
@@ -155,12 +156,12 @@ a.link p {
   }
 
   .logos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-content: center;
     gap: 8px 12px;
   }
 
   .logos a {
+    flex: 0 1 100px;
     justify-content: center;
     min-width: 0;
     margin: 0;
