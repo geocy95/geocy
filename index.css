@@ -11,7 +11,8 @@
     background-clip: text;
     font-size: 36px;
     text-align: center;
-    margin: 0;
+    margin: 1%;
+    padding: 1%;
 }
 
 .header img {
@@ -120,13 +121,13 @@ a.link {
 
 p {
     text-indent: 2em;
-    color: rgb(22, 22, 76);
+    color: #292929;
     margin-left: 2vw;
 }
 
 h2 {
     text-indent: 0.5em;
-    color: rgb(22, 22, 76);
+    color: #1D4E89;
     margin-left: 2vw;
 }
 

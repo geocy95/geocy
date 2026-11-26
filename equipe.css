@@ -59,13 +59,13 @@ a[rel="license"] img {
 ;
 }
 p {
-    color: rgb(22, 22, 76);
+    color: #292929;
     margin-left: 2vw;
 }
 
 h2 {
     text-indent: 0.5em;
-    color: rgb(22, 22, 76);
+    color: #1D4E89;
     margin-left: 2vw;
 }
 
@@ -76,7 +76,9 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.center {
+.lien_retour {
+  margin: 3% auto;
+  display: block;
   text-align: center;
 }
 
